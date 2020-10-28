@@ -57,7 +57,7 @@ After you have downloaded the data, you should start the Jupyter notebook server
 **NOTE 2:** If you are working in a virtual environment on OSX, you may *potentially* encounter
 errors with matplotlib due to the [issues described here](http://matplotlib.org/faq/virtualenv_faq.html). In our testing, it seems that this issue is no longer present with the most recent version of matplotlib, but if you do end up running into this issue you may have to use the `start_ipython_osx.sh` script from the `assignment3` directory (instead of `jupyter notebook` above) to launch your Jupyter notebook server. Note that you may have to modify some variables within the script to match your version of python/installation directory. The script assumes that your virtual environment is named `.env`.
 
-#### You can do Questions 3, 4, and 5 in TensorFlow or PyTorch. There are two versions of each of these notebooks, one for TensorFlow and one for PyTorch. No extra credit will be awarded if you do a question in both TensorFlow and PyTorch.
+#### You can do Questions 2 and 3 in TensorFlow or PyTorch. There are two versions of each of these notebooks, one for TensorFlow and one for PyTorch. No extra credit will be awarded if you do a question in both TensorFlow and PyTorch.
 
 ### Q1: Image Captioning with Vanilla RNNs (30 points)
 The Jupyter notebook `RNN_Captioning.ipynb` will walk you through the
